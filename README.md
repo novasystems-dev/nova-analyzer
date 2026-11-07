@@ -1,31 +1,30 @@
-# Nova-Analyzer — Official Language Server & IDE Engine for Nova
+<p align="center">
+  <img src="assets/logo.svg" alt="Nova Analyzer Logo" width="160" />
+</p>
 
-> **Full Language Server Protocol (LSP) Support | Real-Time Type Hover | Semantic Highlighting | SMT Invariant Verification**
+<h1 align="center">Nova Analyzer & IDE Tooling</h1>
 
-Nova-Analyzer is the official IDE engine for the **Nova Systems Programming Language**, modeled after `rust-analyzer` and `gopls`.
+<p align="center">
+  <b>Official Language Server Protocol (LSP), Tree-Sitter & VS Code Extension for Nova</b>
+</p>
 
----
-
-## Supported IDEs & Editors
-
-- **Visual Studio Code**: Native extension with full syntax, diagnostics, and hover types.
-- **Neovim**: Standard LSP configuration via `nvim-lspconfig`.
-- **Helix**: Out-of-the-box language support.
-- **Emacs**: `eglot` and `lsp-mode` integration.
-
----
-
-## Features
-
-- Real-time SMT refinement proof status on hover.
-- Perceus in-place reuse diagnostics.
-- Tree-sitter AST parsing integration.
-- Go to definition, find references, and symbol renaming.
-- Automated formatting via `nova-fmt` protocol.
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-PolyForm%20Noncommercial-blueviolet?style=for-the-badge" alt="License" /></a>
+  <a href="https://github.com/novasystems-dev/nova"><img src="https://img.shields.io/badge/Nova-Systems%20Lang-00F0FF?style=for-the-badge" alt="Nova" /></a>
+  <img src="https://img.shields.io/badge/LSP-v3.17%20Compliant-FF548F?style=for-the-badge" alt="LSP" />
+</p>
 
 ---
 
-## License
+## ⚡ Features
 
-PolyForm Noncommercial License 1.0.0. Copyright (c) 2026 Fyew999 (Nova Systems).
-See [LICENSE](LICENSE) for details.
+- **Language Server Protocol (LSP)**: Real-time diagnostics, type hovers, autocompletion, go-to-definition.
+- **Tree-Sitter Grammar**: High-precision incremental parsing for syntax highlighting and code structure navigation.
+- **Z3 Refinement Error Hints**: Visual inline display of SMT theorem prover verification failures (such as division by zero, out-of-bounds array access).
+- **Perceus Allocation Visualizer**: Code lenses showing in-place reuse opportunities.
+
+---
+
+## ⚖️ License
+
+Nova Analyzer is released under the **PolyForm Noncommercial License 1.0.0**. Copyright (c) 2026 Fyew999 (Nova Systems).
