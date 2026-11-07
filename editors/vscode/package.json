@@ -11,7 +11,7 @@
     "languages": [{
       "id": "nova",
       "aliases": ["Nova", "nova"],
-      "extensions": [".nova"],
+      "extensions": [".nv", ".nova"],
       "configuration": "./language-configuration.json"
     }]
   }
