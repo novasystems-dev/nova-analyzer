@@ -1,0 +1,12 @@
+name: Analyzer CI
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate LSP Server & Tree-Sitter Definition
+        run: |
+          test -f bin/nova-lsp
+          test -f editors/tree-sitter-nova/grammar.js
+          test -f editors/vscode/package.json
