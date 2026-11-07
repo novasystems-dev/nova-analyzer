@@ -4,15 +4,30 @@
   "description": "Language Server Protocol, syntax highlighting, and SMT diagnostics for Nova",
   "version": "0.3.0",
   "publisher": "novasystems-dev",
-  "engines": { "vscode": "^1.75.0" },
-  "categories": ["Programming Languages", "Linters", "Snippets"],
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Linters",
+    "Snippets"
+  ],
   "main": "./client/out/extension.js",
   "contributes": {
-    "languages": [{
-      "id": "nova",
-      "aliases": ["Nova", "nova"],
-      "extensions": [".nv", ".nova"],
-      "configuration": "./language-configuration.json"
-    }]
-  }
+    "languages": [
+      {
+        "id": "nova",
+        "aliases": [
+          "Nova",
+          "nova"
+        ],
+        "extensions": [
+          ".nv",
+          ".nova"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ]
+  },
+  "icon": "icon.png"
 }
